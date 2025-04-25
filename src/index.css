@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cont-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  background-color: rgb(75, 23, 23);
+  width: 100%;
+  height: 80px;
+  color: white;
+}
+
+.sect-agregar {
+  margin: 15px;
+  border-bottom: 1px solid rgb(75, 23, 23);
+}
+
+.btn-agregar {
+  margin-top: 8px;
+  margin-bottom: 10px;
+  background-color: rgb(75, 23, 23);
+  border-radius: 8px;
+  border: 1px solid white;
+  width: 90px;
+  height: 30px;
+  color: white;
+}
+
+.cont-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+form {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: rgb(75, 23, 23);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.cont-lista {
+  margin: 15px;
+}
+
+.h4-title {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+}
+
+thead {
+  background-color: rgb(75, 23, 23);
+  color: white;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.btn-table {
+  padding: 6px 12px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-table:first-child {
+  background-color: #2196F3;
+  color: white;
+}
+
+.btn-table:last-child {
+  background-color: #f44336;
+  color: white;
+}
+
+.cont-filtros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  width: 100%;
+  height: 80px;
+}
+
+.btn-favoritos{
+  margin-top: 8px;
+  margin-bottom: 10px;
+  background-color: rgb(75, 23, 23);
+  border-radius: 8px;
+  border: 1px solid white;
+  width: 90px;
+  height: 30px;
+  color: white;
+}
+
+.select-filt{
+  background-color: rgb(75, 23, 23);
+  color: white;
+  width: 140px;
+  height: 30px;
+  border-radius: 6px;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.btn-favorito-añadir{
+  margin-top: 8px;
+  margin-bottom: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  border: 1px solid white;
+  width: 70px;
+  height: 30px;
+  color: white;
+}
+
+.btn-favorito{
+  margin-top: 8px;
+  margin-bottom: 10px;
+  background-color: rgb(179, 149, 19);
+  border-radius: 8px;
+  border: 1px solid white;
+  width: 70px;
+  height: 30px;
+  color: white;
+}
